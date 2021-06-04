@@ -16,4 +16,4 @@ The following are the steps one should follow to run this project on their local
   * Now click the **choose file** option, then navigate to ```xampp\htdocs\POSBOT\sql\``` and then select the ```posbot.sql``` file, then hit **Go** button on the bottom right.
   * Now close this tab.
 * Open another internet browser tab and type ```local/phpmyqdmin/POSBOT/index.php/``` in the search bar.
-* And Voila, there you go!!! You are ready to run this on project on your local machine!!!
+* And Voila, there you go!!! You are ready to run this project on your local machine!!!
