@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 04, 2021 at 02:25 PM
+-- Generation Time: Jun 05, 2021 at 12:23 PM
 -- Server version: 10.4.18-MariaDB
 -- PHP Version: 8.0.3
 
@@ -44,7 +44,11 @@ CREATE TABLE `practitioner` (
 --
 
 INSERT INTO `practitioner` (`PRAC_NO`, `PRAC_NAME`, `PRAC_SPECIALIZATION`, `PRAC_COUNTRY`, `PRAC_STATE`, `PRAC_CITY`, `PRAC_STREET`, `PRAC_NUMBER`, `PRAC_EMAIL`) VALUES
-(1, 'Dr. Rakesh Sharma', 'Pediatrician', 'India', 'Haryana', 'Gurgaon', 'Sector 90', '9971266212', 'rsharma@ymail.com');
+(1, 'Dr. Rakesh Sharma', 'Pediatrician', 'India', 'Haryana', 'Gurgaon', 'Sector 90', '9971266212', 'rsharma@ymail.com'),
+(2, 'Dr. Rakesh Gujral', 'Surgeon', 'India', 'Haryana', 'Gurgaon', 'Sector 35', '9728132192', 'rakesh.g2916@ymail.com'),
+(3, 'Dr. Rakesh Mathur ', 'Orthopedic', 'India', 'Haryana', 'Gurgaon', 'Sector 82', '8876288762', 'mathur_rakesh_2306@gmail.com'),
+(4, 'Dr. Shreeja Chaturvedi', 'Orthopedic', 'India', 'Haryana', 'Gurgaon', 'Sector 90', '8888993272', 'shreeja.chatur_clinic@hotmail.com'),
+(5, 'Dr. Suparna Bisht', 'Dermatologist', 'India', 'Haryana', 'Gurgaon', 'Sector 90', '9988227321', 'bisht_suparna_101@gmail.com');
 
 --
 -- Indexes for dumped tables
@@ -64,7 +68,7 @@ ALTER TABLE `practitioner`
 -- AUTO_INCREMENT for table `practitioner`
 --
 ALTER TABLE `practitioner`
-  MODIFY `PRAC_NO` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `PRAC_NO` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
