@@ -639,7 +639,7 @@
         class="d-flex flex-column p-5 justify-content-center align-items-center"
         style="margin: 15em 0"
       >
-        <h1 class="display-2">The Team</h1>
+<!--         <h1 class="display-2">The Team</h1>
         <div class="d-flex flex-row text-center">
           <div>
             <img
@@ -668,7 +668,7 @@
             />
             <h3 class="my-3">Soham Sengupta</h3>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
     <!-- Canvas with video  -->
